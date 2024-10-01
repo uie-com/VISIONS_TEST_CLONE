@@ -1,0 +1,343 @@
+/*2024 UX Vision Intensive website*/
+
+.bannerGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.container2023 {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-bottom: 30px;
+}
+
+.imgSubtitles {
+  max-width: 100%;
+  display: block;
+}
+
+.imglogo {
+  max-width: 100%;
+}
+.image {
+  width: 30%;
+  height: auto;
+}
+
+.text {
+  font-size: 40px;
+  padding-left: 20px;
+}
+
+.jaredImg {
+  width: 100%;
+  height: auto;
+}
+
+.font-weighth2 {
+  font-weight: 700;
+}
+
+.newGrid {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.padding25 {
+  padding: 10px 25px;
+}
+
+.padding50 {
+  padding: 5px 50px;
+}
+
+.container2024 {
+  max-width: 66em;
+  margin: 0 auto;
+}
+
+.fontQuicksand {
+  font-family: "Playfair Display", serif;
+  font-family: "Quicksand", sans-serif;
+}
+
+.banderIcon {
+  height: 10.5rem;
+  width: 10.5rem;
+}
+
+.testimonial-divider {
+  border-right: 2px solid white;
+}
+
+.breadcrumb {
+  background-color: transparent;
+  padding: 0;
+  margin-bottom: 0;
+  color: #9b0e5b;
+}
+
+.desplayInlineBlock {
+  display: inline-block;
+}
+
+.boreder {
+  border: 1px solid #9b0e5b;
+}
+
+.tealBox {
+  margin-bottom: 80px;
+  background-color: #016267;
+  color: white;
+}
+
+.marginBottom {
+  margin-bottom: 3rem;
+}
+
+.buttonLarge {
+  width: 454px;
+  height: 61px;
+  flex-shrink: 0;
+}
+
+.ulTab {
+  padding-left: 3rem;
+}
+.ulPaid {
+  list-style: none;
+}
+
+.mobleSize {
+  width: 50%;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.semibold {
+  font-weight: 600;
+}
+
+ol,
+ul {
+  margin-left: 2em;
+  line-height: 1;
+  padding: 0px 0px;
+}
+
+.ulHand {
+  list-style: none;
+  padding: 0px 0px;
+}
+
+.ulHand .liHand::before {
+  content: "\1F449";
+  display: inline-block;
+  width: 1em;
+  margin-left: -2em;
+  font-weight: 700;
+  line-height: 1;
+  padding: 5px 10px;
+}
+
+.ulPaid {
+  list-style: none;
+  padding: 0px 0px;
+}
+
+.ulPaid .paidLi::before {
+  content: "\2713 "; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #006f74; /* Change the color */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em;
+  font-weight: 700;
+  line-height: 1.5;
+  padding: 5px 0px;
+}
+
+.ulPaid .paidLili::before {
+  content: "\2022 "; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #006f74; /* Change the color */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+  font-weight: 700;
+  line-height: 1.5;
+  padding: 5px 0px;
+}
+
+.ulPaidPTL {
+  list-style: none;
+  padding: 0px 0px;
+}
+
+.ulPaidPTL .paidLiPT::before {
+  content: "\2713 "; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #9b0e5b; /* Change the color */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+  font-weight: 700;
+  line-height: 1.5;
+  padding: 5px 0px;
+}
+
+.ulPaidPTL .paidLiPTli::before {
+  content: "\2022  "; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #9b0e5b; /* Change the color */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+  font-weight: 700;
+  line-height: 1.5;
+  padding: 5px 0px;
+}
+
+.btn a {
+  color: #fff;
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 625px) {
+  .text {
+    font-size: 19px;
+    padding-left: 18px;
+  }
+  .image {
+    width: 25%;
+    height: auto;
+  }
+  .jaredImg {
+    width: 100%;
+    height: auto;
+  }
+  .bannerGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .font-size {
+    font-size: 20px;
+    margin-top: 5px;
+  }
+
+  .caption {
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-weight: 600;
+  }
+
+  .mobleSizeBlank {
+    height: 25px;
+  }
+
+  .textMoble {
+    font-size: 24px;
+    margin-top: -75px;
+  }
+
+  .mobleSizeHero {
+    background-color: #016267;
+  }
+  .mainbody {
+    margin-top: -75px;
+  }
+}
+
+/*Visions Navabr*/
+/*
+.topNavIcon {
+  background-color: #fff;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.headerNav {
+  display: flex;
+  flex-direction: row;
+  flex: 100%;
+  align-items: center;
+  width: 100%;
+  column-gap: 1.5rem;
+  padding: 1em 0 0 0;
+  margin: 0 1em;
+  gap: 2em;
+}
+
+.ulTopNav {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.right-align {
+  margin-left: auto;
+}
+
+.liTopNav {
+  color: rgb(0, 163, 180);
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
+    helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial,
+    sans-serif;
+  font-size: 20.7px;
+  letter-spacing: 0em;
+  line-height: 1.15;
+  font-weight: 700 !important;
+  display: inline-block;
+  padding: 0 10px;
+  gap: 0.5rem 1.25rem;
+}
+
+.liTopNav a {
+  text-decoration: none;
+  color: #00a3b4;
+}
+
+.liTopNav a:hover {
+  border-bottom: 2px solid #00a3b4;
+  text-decoration: none;
+}
+
+.desktopLogoNav {
+  height: auto;
+  width: 35px !important;
+}
+
+.mobileIconNav {
+  height: auto;
+
+  width: 35px !important;
+}
+
+@media only screen and (max-width: 992px) {
+  .hide-on-mobile {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .hide-on-desktop {
+    display: none;
+  }
+}
+*/

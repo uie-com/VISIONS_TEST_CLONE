@@ -1,0 +1,486 @@
+/*2024 UX Vision Intensive website*/
+
+.bannerGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.container2023 {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-bottom: 30px;
+}
+
+.imgSubtitles {
+  max-width: 100%;
+  display: block;
+}
+
+.imglogo {
+  max-width: 100%;
+}
+
+.image {
+  width: 30%;
+  height: auto;
+}
+
+.text {
+  font-size: 40px;
+  padding-left: 20px;
+}
+
+.jaredImg {
+  width: 100%;
+  height: auto;
+}
+
+.font-weighth2 {
+  font-weight: 700;
+}
+
+.newGrid {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.padding25 {
+  padding: 0px 25px;
+  margin-top: -15px;
+}
+
+.padding50 {
+  padding: 5px 50px;
+}
+
+.container2024 {
+  max-width: 66em;
+  margin: 0 auto;
+}
+
+.fontQuicksand {
+  font-family: "Playfair Display", serif;
+  font-family: "Quicksand", sans-serif;
+}
+
+.banderIcon {
+  height: 10.5rem;
+  width: 10.5rem;
+}
+
+.testimonial-divider {
+  border-right: 2px solid white;
+}
+
+.breadcrumb {
+  background-color: transparent;
+  padding: 0;
+  margin-bottom: 0;
+  color: #9b0e5b;
+}
+
+.desplayInlineBlock {
+  display: inline-block;
+}
+
+.boreder {
+  border: 1px solid #9b0e5b;
+}
+
+.tealBox {
+  margin-bottom: 80px;
+  background-color: #016267;
+  color: white;
+}
+
+.marginBottom {
+  margin-bottom: 3rem;
+}
+
+.buttonLarge {
+  width: 454px;
+  height: 61px;
+  flex-shrink: 0;
+}
+
+.ulTab {
+  padding-left: 3rem;
+}
+
+.ulPaid {
+  list-style: none;
+}
+
+.mobleSize {
+  width: 50%;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.semibold {
+  font-weight: 600;
+}
+
+ol,
+ul {
+  margin-left: 2em;
+  line-height: 1;
+  padding: 0px 0px;
+  list-style-position: outside;
+}
+
+.ulHand {
+  list-style: none;
+  padding: 0px 0px;
+  list-style-position: outside;
+  display: table;
+}
+
+.ulHand > .liHand {
+  display: table-row;
+}
+
+.ulHand .liHand::before {
+  content: "\1F449";
+  display: inline-block;
+  width: 1em;
+  margin-left: 0em;
+  font-weight: 700;
+  line-height: 1;
+  padding: 0px 10px;
+  display: table-cell;
+  text-align: right;
+}
+
+.ulPaid {
+  list-style: none;
+  padding: 0px 0px;
+  list-style-position: outside;
+  display: table;
+}
+
+.ulPaid > .paidLi {
+  display: table-row;
+  /* padding: 15px 10px; */
+}
+
+.ulPaid .paidLi::before {
+  content: "\2713 ";
+  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #006f74;
+  /* Change the color */
+  display: inline-block;
+  /* Needed to add space between the bullet and the text */
+  width: 1em;
+  /* Also needed for space (tweak if needed) */
+  margin-left: 0em;
+  font-weight: 700;
+  line-height: 1.5;
+  padding: 7px 5px;
+  display: table-cell;
+  text-align: right;
+}
+
+.ulPaid > .paidLili {
+  display: table-row;
+}
+
+.ulPaid .paidLili::before {
+  content: "\2022 ";
+  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #006f74;
+  /* Change the color */
+  display: inline-block;
+  /* Needed to add space between the bullet and the text */
+  width: 1em;
+  /* Also needed for space (tweak if needed) */
+  margin-left: 0em;
+  /* Also needed for space (tweak if needed) */
+  font-weight: 700;
+  line-height: 1.5;
+  padding: 7px 5px;
+  display: table-cell;
+  text-align: right;
+}
+
+.ulPaidPTL {
+  list-style: none;
+  padding: 0px 0px;
+  list-style-position: outside;
+  display: table;
+}
+
+.ulPaidPTL > .paidLiPT {
+  display: table-row;
+}
+
+.ulPaidPTL .paidLiPT::before {
+  content: "\2713 ";
+  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #9b0e5b;
+  /* Change the color */
+  display: inline-block;
+  /* Needed to add space between the bullet and the text */
+  width: 1em;
+  /* Also needed for space (tweak if needed) */
+  margin-left: 0em;
+  /* Also needed for space (tweak if needed) */
+  font-weight: 700;
+  line-height: 1.5;
+  padding: 7px 5px;
+  display: table-cell;
+  text-align: right;
+}
+
+.ulPaidPTL > .paidLiPTli {
+  display: table-row;
+}
+
+.ulPaidPTL .paidLiPTli::before {
+  content: "\2022  ";
+  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #9b0e5b;
+  /* Change the color */
+  display: inline-block;
+  /* Needed to add space between the bullet and the text */
+  width: 1em;
+  /* Also needed for space (tweak if needed) */
+  margin-left: 0em;
+  /* Also needed for space (tweak if needed) */
+  font-weight: 700;
+  line-height: 1.5;
+  padding: 7px 5px;
+  display: table-cell;
+  text-align: right;
+}
+
+.btn a {
+  color: #fff;
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 625px) {
+  .text {
+    font-size: 19px;
+    padding-left: 18px;
+  }
+
+  .image {
+    width: 25%;
+    height: auto;
+  }
+
+  .jaredImg {
+    width: 100%;
+    height: auto;
+  }
+
+  .bannerGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .font-size {
+    font-size: 20px;
+    margin-top: 5px;
+  }
+
+  .caption {
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-weight: 600;
+  }
+
+  .mobleSizeBlank {
+    height: 25px;
+  }
+
+  .textMoble {
+    font-size: 24px;
+    margin-top: -75px;
+  }
+
+  .mobleSizeHero {
+    background-color: #016267;
+  }
+
+  .mainbody {
+    margin-top: -75px;
+  }
+}
+
+.price {
+  padding-bottom: 0;
+}
+
+.price-small {
+  padding-bottom: 10px;
+}
+
+/* Navbar */
+/*More header and topbar styles in vision-style.css*/
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0px 10px 0px;
+  background-color: #fff;
+  position: relative;
+}
+
+.head-logo {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.topNavIcon {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.headerNav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  padding: 1em 0;
+  margin: 0 1em;
+  gap: 1.5rem;
+}
+
+.ulTopNav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.liTopNav a {
+  display:flex;
+  flex-wrap: wrap;
+  text-align: center;
+  text-decoration: none;
+  color: #00a3b4;
+  padding: 10px;
+  font-weight: bold;
+
+}
+
+.liTopNav a:hover {
+  border-bottom: 2px solid #00a3b4;
+}
+
+.head-button {
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+}
+
+/* Hamburger Menu Styles */
+.hamburger-menu {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  padding: 10px;
+  align-items: center;
+}
+
+.hamburger-menu span {
+  background: #000;
+  border-radius: 2px;
+  height: 3px;
+  margin: 5px 0;
+  width: 25px;
+}
+
+/* Media Queries */
+
+/* For screens 768px and up */
+@media only screen and (min-width: 768px) {
+  .head-button {
+    display: block;
+  }
+
+  .hamburger-menu {
+    display: none;
+  }
+
+  .topNavIcon {
+    display: flex;
+  }
+
+  .extra-link {
+    display: none;
+  }
+}
+
+/* For screens 767px and below */
+@media only screen and (max-width: 767px) {
+  .hamburger-menu {
+    display: flex;
+    margin-left: auto;
+  }
+
+  .topNavIcon {
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start; /* Align to top */
+    align-items: flex-start; /* Align links to the left */
+    position: absolute;
+    top: 60px;
+    right: 15px;
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    z-index: 1000;
+    width: auto;
+    max-width: 100%;
+  }
+
+  .topNavIcon.show {
+    display: flex;
+  }
+
+  .ulTopNav {
+    flex-direction: column;
+    align-items: flex-start; /* Align links to the left */
+    width: 100%; /* Ensure full width for stacking */
+  }
+
+  .liTopNav {
+    padding: 10px 0;
+  }
+
+  .liTopNav a {
+    font-size: 16px;
+    width: 100%;
+    text-align: left; /* Align text to the left */
+    padding-left: 15px; /* Add padding to align text away from edge */
+  }
+
+  .extra-link {
+    display: flex; /* Show the extra link on smaller screens */
+  }
+}
